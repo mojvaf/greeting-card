@@ -1,0 +1,50 @@
+body{
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+h1 {
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    color: peachpuff;
+}
+
+p{
+    color: palevioletred;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.swap-on-hover{
+    position: relative;
+    margin: 0 auto;
+    max-width: 620px;
+    
+}
+.swap-on-hover img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 630px;
+    
+}
+.swap-on-hover
+.swap-on-hoverfront{
+    
+    z-index: 9999;
+    transition: opacity .5s linear;
+  cursor: pointer;
+    
+}
+.swap-on-hover:hover>
+.swap-on-hoverfront{
+    
+    opacity: 0;
+}
+
+
